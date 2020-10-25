@@ -1,5 +1,5 @@
 import { Mesh, BoxGeometry, MeshStandardMaterial, TextureLoader } from "three";
-import { Pos } from "../../shared";
+import { Pos } from "../../../shared";
 
 const texture = new TextureLoader().load('/textures/wall.jpeg');
 export default class Wall {

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './styles.module.scss';
 import Main from "./Main";
-import Maze from "./Objects";
+import Maze from "./Main/Objects";
 const maze = new Maze();
 
 export default function App() {
