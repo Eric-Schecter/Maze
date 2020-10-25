@@ -6,7 +6,7 @@
 This repo a maze ball game built with Threejs.  
 Hold you mouse then move to rotate the maze and let the ball roll.  
 The first time I learned the algrithm of maze generation is at Brian Holt's course on Frontend Master.  
-You can find the [his repo](https://github.com/btholt/four-semesters-of-cs-part-two) if you are interested.
+You can find [his repo](https://github.com/btholt/four-semesters-of-cs-part-two) if you are interested.
 
 ## Get Started
 #### Run Online   
