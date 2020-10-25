@@ -10,7 +10,7 @@ You can find [his repo](https://github.com/btholt/four-semesters-of-cs-part-two)
 
 ## Get Started
 #### Run Online   
-[https://maze.netlify.app](https://maze.netlify.app) 
+[https://maze-ball.netlify.app](https://maze-ball.netlify.app) 
 
 #### Run locally
 1. Clone the repo  
@@ -46,4 +46,4 @@ This project is licensed under [![License: MIT](https://img.shields.io/badge/Lic
 * Email:[eric199002@icloud.com](eric199002@icloud.com)
 * Twitter:[https://twitter.com/nikoniko600](https://twitter.com/nikoniko600)
 * Repo:[https://github.com/Eric-Schecter/Maze](https://github.com/Eric-Schecter/Maze)
-* App:[https://maze.netlify.app](https://maze.netlify.app) 
+* App:[https://maze-ball.netlify.app](https://maze-ball.netlify.app) 
