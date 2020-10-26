@@ -16,7 +16,7 @@ export default class Ball {
     this._mesh.position.set(this.p.x, this.radius, this.p.y);
   }
   private judgeWallByPoint = (data: Block[][], x: number, y: number, xIndex: number, yIndex: number) => {
-    const { west, north, south, east, pos: { x: xBlock, z: zBlock } } = data[yIndex][xIndex];
+    const { west, north, south, east, pos: { x: xBlock, z: zBlock } } = data[xIndex][yIndex];
     const canMoveEast = east ? xBlock + 1 - x > this.radius : true;
     const canMoveSouth = south ? zBlock + 1 - y > this.radius : true;
     const canMoveWest = west ? x - xBlock > this.radius : true;
@@ -26,13 +26,13 @@ export default class Ball {
   private pos2Index = (pos: Pos) => {
     const { x, z } = pos;
     return {
-      xIndex: Math.floor(x + rowNum / 2),
-      yIndex: Math.floor(z + colNum / 2),
+      xIndex: Math.floor(z + rowNum / 2),
+      yIndex: Math.floor(x + colNum / 2),
     }
   }
   private judgeWall = (data: Block[][]) => {
     const { x, y } = this.p;
-    const length = this.radius * 1 / 2;
+    const length = this.radius / 2;
     const { xIndex: x1, yIndex: y1 } = this.pos2Index({ x: x - length, z: y - length });
     const { xIndex: x2, yIndex: y2 } = this.pos2Index({ x: x + length, z: y - length });
     const { xIndex: x3, yIndex: y3 } = this.pos2Index({ x: x - length, z: y + length });
