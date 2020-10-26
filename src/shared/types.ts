@@ -15,7 +15,7 @@ export class Block {
   public south = true;
   public west = true;
   private _isVisited = false;
-  constructor(private _pos: { row: number, col: number }) { }
+  constructor(private _pos: { x: number, z: number }) { }
   public get pos() {
     return this._pos;
   }

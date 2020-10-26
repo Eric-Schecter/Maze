@@ -17,7 +17,7 @@ const createMap = (rowNum:number,colNum:number) => {
       new Array(colNum)
         .fill(0)
         .map((col, colID) =>
-          new Block({ col: colID - Math.floor(colNum / 2), row: rowID - Math.floor(rowNum / 2) })));
+          new Block({ x: colID - Math.floor(colNum / 2), z: rowID - Math.floor(rowNum / 2) })));
 
   const getNextPos = (row: number, col: number, dir: Options) => {
     switch (dir) {
