@@ -1,5 +1,5 @@
 import createMap from './createMap';
-import { Block, rowNum, colNum } from '../../../shared';
+import { Block, rowNum, colNum } from '../../shared';
 import Wall from './wall';
 import Ball from './ball';
 

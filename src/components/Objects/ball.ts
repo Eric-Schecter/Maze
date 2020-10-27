@@ -1,4 +1,4 @@
-import { Pos, Block, rowNum, colNum } from "../../../shared";
+import { Pos, Block, rowNum, colNum } from "../../shared";
 import { SphereGeometry, MeshStandardMaterial, Mesh } from "three";
 import { Vector } from "./vector";
 

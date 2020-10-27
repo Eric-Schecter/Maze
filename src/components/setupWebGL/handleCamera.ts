@@ -1,5 +1,5 @@
 import { PerspectiveCamera } from "three";
-import { Pos3D } from "../../../shared";
+import { Pos3D } from "../../shared";
 
 export const handleCamera = (width: number, height: number, pos: Pos3D) => {
   const { x, y, z } = pos;

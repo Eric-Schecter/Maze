@@ -1,4 +1,4 @@
-import { Block, Options } from "../../../shared";
+import { Block, Options } from "../../shared";
 
 const createMap = (rowNum:number,colNum:number) => {
   const randomDirection = () => {
